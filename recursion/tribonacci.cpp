@@ -6,9 +6,9 @@ public:
 
 
         int first = tribonacci(n-1) ;
-        int sec = tribonacci(n-2) ;
+        int second = tribonacci(n-2) ;
         int third = tribonacci(n-3);
 
-        return first + sec + third;
+        return first + second + third;
     }
 };
